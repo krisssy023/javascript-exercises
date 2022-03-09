@@ -13,6 +13,5 @@ const palindromes = function (str) {
         }
 }
 
-console.log(palindromes("racecar!"))
 // Do not edit below this line
 module.exports = palindromes;
