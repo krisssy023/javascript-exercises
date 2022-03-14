@@ -9,7 +9,7 @@ const findTheOldest = function(people) {
         object.age = '';
         });
 
-     for (let i = 0; i <peopleWithAge.length; i++){ 
+     for (let i = 0; i <peopleWithAge.length; i++){ //checks if alive and adds current year for age calculation
 
         function doesKeyExists(obj,key){
             return key in obj;
